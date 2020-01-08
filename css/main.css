@@ -1,0 +1,125 @@
+/*********Font Families********
+font-family: 'Inria Serif', serif;
+font-family: 'Bitter', serif;
+font-family: 'Baloo Bhai', cursive;
+/
+/**********BASE STYLES********/
+body{
+  font-family: 'Inria Serif', serif;
+  color:#ffffff;
+  background-color:#202060;
+  background-size:cover;
+}
+
+/********GRID************/
+
+.full-width{
+  width:1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width:600px;
+  float: left;
+}
+
+.half-width-center{
+  width:400px;
+  float:left;
+  height:400px;
+  padding: 0 100px 0 100px;
+}
+
+.third-width{
+  width:400px;
+  float:left;
+
+}
+/********HEADER**********/
+header{
+  height:800px;
+  background: url('../img/compass.png');
+  background-size:cover;
+}
+
+nav{
+  float:right;
+  font-size:20px;
+  color:#ffffff;
+  padding: 25px 25px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+header h2{
+  font-family:'Baloo Bhai', cursive;
+  font-size: 100px;
+  color:#ffffff;
+  text-align: center;
+}
+
+header h1{
+  font-family: 'Bitter', serif;
+  font-size: 30px;
+  color:#ffffff;
+}
+/********WORK***********/
+main{
+  height:1200px;
+  padding:50px 0 50px 0;
+}
+
+main img{
+  border: 1px solid #ddd;
+  border-radius:5px;
+  padding:5px;
+  width:450px;
+  height:350px;
+}
+
+main p{
+  width: 450px;
+  color:#ffffff;
+}
+
+main h2{
+  font-family: 'Bitter', serif;
+  color: #ffffff;
+  text-align:center;
+}
+
+main h3{
+  color:#ffffff;
+  weight:bold;
+}
+
+#jelanea #rogue{
+  text-align:left;
+}
+
+#jubilee{
+  text-align:right;
+}
+/*******ABOUT**********/
+#about{
+  height:150px;
+  text-align:center;
+  width:400px;
+  }
+
+/*******FOOTER********/
+footer{
+  color:#00264d;
+  height:300px;
+  text-align:center;
+  background:url('../img/dory.png');
+  background-size:cover;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 20px;
+}
