@@ -105,11 +105,15 @@ main h3{
 }
 /*******ABOUT**********/
 #about{
-  height:150px;
+  height:800px;
   text-align:center;
   width:400px;
   }
 
+#about span{
+  font-family: "Baloo Bali", cursive;
+  font-size: 30px;
+}
 /*******FOOTER********/
 footer{
   color:#00264d;
