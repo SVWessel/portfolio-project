@@ -1,14 +1,12 @@
 /*********Font Families********
-font-family: 'Inria Serif', serif;
-font-family: 'Bitter', serif;
-font-family: 'Baloo Bhai', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Kavivanar', cursive;
+font-family: 'Montserrat', sans-serif;
 /
 /**********BASE STYLES********/
 body{
-  font-family: 'Inria Serif', serif;
-  color:#ffffff;
-  background-color:#202060;
-  background-size:cover;
+  font-family: 'Montserrat', sans-serif;
+  color:#000000;
 }
 
 /********GRID************/
@@ -24,10 +22,11 @@ body{
 }
 
 .half-width-center{
-  width:400px;
+  width:450px;
   float:left;
   height:400px;
-  padding: 0 100px 0 100px;
+  padding: 0 75px 0 75px;
+
 }
 
 .third-width{
@@ -35,95 +34,140 @@ body{
   float:left;
 
 }
+
+hr{
+  border: 3px solid #DDD8C4;
+}
+
 /********HEADER**********/
 header{
-  height:800px;
-  background: url('../img/compass.png');
-  background-size:cover;
+  height:75px;
+  background-color: #DDD8C4;
+  /**background-size:cover;**/
 }
 
 nav{
   float:right;
   font-size:20px;
-  color:#ffffff;
-  padding: 25px 25px;
+  color:#000000;
+
+  /**padding: 25px 25px;**/
 }
 
 nav ul li{
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 
 header h2{
-  font-family:'Baloo Bhai', cursive;
+  font-family: 'Kavivanar', cursive;
   font-size: 100px;
-  color:#ffffff;
+  color:#50808E;
   text-align: center;
 }
 
 header h1{
-  font-family: 'Bitter', serif;
+  font-family: 'Kavivanar', cursive;
   font-size: 30px;
-  color:#ffffff;
+  color:#50808E;
 }
 /********WORK***********/
 main{
-  height:1200px;
+  height:600px;
   padding:50px 0 50px 0;
+  background-image: linear-gradient(#DDD8C4, #DDD8C4);
+  background-size: 4px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#websites{
+  float:right;
 }
 
 main img{
   border: 1px solid #ddd;
   border-radius:5px;
   padding:5px;
-  width:450px;
-  height:350px;
+  width:200px;
+  height:100px;
+}
+
+main img.websites{
+  border: 1px solid #ddd;
+  border-radius:5px;
+  padding:5px;
+  width:350px;
+  height:175px;
+  margin-left: 50px;
 }
 
 main p{
   width: 450px;
-  color:#ffffff;
+  color:#000000;
 }
 
 main h2{
-  font-family: 'Bitter', serif;
-  color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+  color: #50808E;
   text-align:center;
 }
 
+h2.center{
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
 main h3{
-  color:#ffffff;
+  font-family: 'Comfortaa', cursive;
+  color:#000000;
   weight:bold;
 }
 
-#jelanea #rogue{
-  text-align:left;
-}
-
-#jubilee{
-  text-align:right;
+div#portfolio-div{
+  background-color: #84B59F;
 }
 /*******ABOUT**********/
 #about{
-  height:800px;
-  text-align:center;
-  width:400px;
-  }
+  height:300px;
+  /*text-align:center;*/
+  /*width:400px;*/
+}
 
 #about span{
-  font-family: "Baloo Bali", cursive;
+  font-family: 'Kavivanar', cursive;
   font-size: 30px;
+}
+
+#about p{
+  width:400px;
+  text-align:right;
+}
+
+#about div{
+  vertical-align:middle;
+}
+
+img.circle-box{
+  width: 50%;
+  margin-top:10px;
+  padding-bottom: 10%;
+  border-radius: 50%;
+  border: 4px solid #50808E;
 }
 /*******FOOTER********/
 footer{
   color:#00264d;
-  height:300px;
+  height:500px;
   text-align:center;
-  background:url('../img/dory.png');
-  background-size:cover;
+  background-color: #50808E
 }
 
 footer ul li{
   display: inline-block;
   padding: 20px;
+}
+
+footer img.icon{
+  height: 50px;
+  width: 50px;
 }
