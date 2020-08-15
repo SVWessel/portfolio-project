@@ -89,6 +89,8 @@ main img{
   border: 1px solid #ddd;
   border-radius:5px;
   padding:5px;
+  margin-bottom: 25px;
+  margin-top:15px;
   width:200px;
   height:100px;
 }
@@ -100,6 +102,8 @@ main img.websites{
   width:350px;
   height:175px;
   margin-left: 50px;
+  margin-bottom: 8px;
+  margin-top: 0px;
 }
 
 main p{
